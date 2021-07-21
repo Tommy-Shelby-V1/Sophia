@@ -120,7 +120,7 @@ Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
     if (!!message.mention && message.mention[0] == '918921483992@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./stickers/mention.webp'), MessageType.sticker, { mimetype: Mimetype.webp, quoted : message.data, ptt: false})
     }
-const array = ['Hi','power','sad','anthas','failed','alla','chunk','marichu','myre','think','cheyalle','mention','mama','set','eda','umma','police','aysheri','vannu','love','manasilla','uyir','oombi','Mm','important','sed','chathu','girl','poweresh','ooo','bye','fuck','pedicho','kunna','number','ok','pwoli','chiri','vibe','shut','saved','mood','shaad','pidi']
+const array = ['Hi','power','TOMMY SHELBY','Adarsh','air','alive','amul','Amul','AMUL','bot','Bot','BOT','bye','adarsh','bei','cristiano ronaldo','goat','malar','thug','Good morning','valip','I am back','Kalikan nikale','kollam','konami','Machan','mood','mukesh','Muscle','myr','myre','noob','Onnu poda','pani paaali','perfect ok','pettu','power','Poda myre','ronaldo','sed','shey','Shey','sooryadath','Tommy shelby','umbi','valip','vanam','vanne','sad','anthas','failed','alla','chunk','marichu','myre','think','cheyalle','mention','mama','set','eda','umma','police','aysheri','vannu','love','manasilla','uyir','oombi','Mm','important','sed','chathu','girl','poweresh','ooo','bye','fuck','pedicho','kunna','number','ok','pwoli','chiri','vibe','shut','saved','mood','shaad','pidi']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
